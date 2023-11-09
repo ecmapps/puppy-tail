@@ -20,7 +20,6 @@ import locale
 import smtplib
 import ssl
 from email.message import EmailMessage
-locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
 
 import os
 
