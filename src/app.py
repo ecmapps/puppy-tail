@@ -18,7 +18,7 @@ from api.models import *
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate(os.getenv("fb-key.json"))
+cred = credentials.Certificate("/etc/secrets/fb-key.json")
 firebase_admin.initialize_app(cred)
 
 #from models import Person
